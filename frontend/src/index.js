@@ -5,7 +5,9 @@ import App from './App';
 import { TransactionsContextProvider } from './context/TransactionContext';
 import { AuthContextProvider } from './context/AuthContext';
 import { BudgetContextProvider } from './context/BudgetContext';
+import { disableReactDevTools } from '@fvilers/disable-react-devtools';
 
+disableReactDevTools()
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
