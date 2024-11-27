@@ -13,8 +13,8 @@ const app = express()
 
 //CORS Configuration
 const corsOptions = {
-    origin: 'http://localhost:3000',
-    // origin: 'https://budgetbuddy-frontend-9h43.onrender.com',
+    // origin: 'http://localhost:3000',
+    origin: 'https://budgetbuddytest.onrender.com/',
     credentials: true,
     methods: ['GET', 'POST', 'PATCH', 'DELETE', 'PUT'],
     allowedHeaders: ['Content-Type', 'Authorization'],
